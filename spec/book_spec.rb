@@ -1,5 +1,5 @@
 require 'spec_helper'
- 
+
 describe Book do
   before :each do
     @book = Book.new "Title", "Author", :category
@@ -30,5 +30,4 @@ describe Book do
       @book.category.should eql :category
     end
   end
-  
 end

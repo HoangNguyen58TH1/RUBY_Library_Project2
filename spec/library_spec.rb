@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe "Library Object" do
-  
+
   before :all do
     lib_arr = [
       Book.new("Javascript: The Good Parts", "Douglas Crockford", :development),
